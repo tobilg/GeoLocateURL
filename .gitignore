@@ -1,0 +1,11 @@
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.mmdb
+
+npm-debug.log
+node_modules
+.idea
