@@ -4,19 +4,19 @@ GeoLocateURL is a WebService implemented with NodeJS which takes an URL and retu
 
 ## Installation
 
-1. Prerequisites
+### Prerequisites
 
 To run this project, a valid install of NodeJS is required. You can check your installation by running `node --version` in your command shell.
 
-2. Checkout the project from Github to a local folder
+### Checkout the project from Github to a local folder
 
 `git clone git@github.com:tobilg/GeoLocateURL.git`
 
-3. Download GeoLite2 Free
+### Download GeoLite2 Free
 
 Download the database from [http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz) and unzip the contents to the project's subfolder `db`
 
-4. Run the WebService
+### Run the WebService
 
 Navigate to the folder where you checked out the project to in your console. Run `node GeoLocateURL.js`.
 
