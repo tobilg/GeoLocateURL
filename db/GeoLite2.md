@@ -1,0 +1,1 @@
+Put the [http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz) here.
