@@ -56,4 +56,4 @@ http.createServer(function(req,res) {
 
     dns.lookup(url, cb);
 
-}).listen(3000);
+}).listen(process.env.npm_package_config_port || 3000);

@@ -16,11 +16,15 @@ To run this project, a valid install of NodeJS is required. You can check your i
 
 Download the database from [http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz](http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.mmdb.gz) and unzip the contents to the project's subfolder `db`
 
+### Install module dependencies
+
+Navigate to the folder where you checked out the project to in your console. Run `npm install`. The module `maxmind-db-reader` should be installed successfully.
+
 ### Run the WebService
 
-Navigate to the folder where you checked out the project to in your console. Run `node GeoLocateURL.js`.
+Navigate to the folder where you checked out the project to in your console. Run `npm start`.
 
-To access the WebService via a browser, use `http://localhost:3000/?url=http://www.google.com`. This will return something like
+To access the WebService via a browser, use `http://localhost:8080/?url=http://www.google.com`. This will return something like
 
 ```javascript
 {
