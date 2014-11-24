@@ -1,6 +1,6 @@
 {
   "name": "GeoLocateURL",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "maxmind-db-reader": "0.2.0"
@@ -10,7 +10,8 @@
     "url" : "https://github.com/tobilg/GeoLocateURL.git"
   },
   "config" : {
-    "port" : "8080"
+    "port" : "8080",
+    "type": "city"
   },
   "scripts": {
     "start" : "node GeoLocateURL.js"
